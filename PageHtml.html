@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        .cover-container {
+          position: relative;
+          width: 100%;
+          height: 350px; 
+          overflow: hidden;
+        }
+    
+        .cover-image {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        
+        .fact h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 8vh;
+            margin-left: 10%;
+
+        }
+
+        .fact1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fact1 h1 {
+            font-weight: normal;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            margin-left: 10%;
+            text-align: justify;
+        }
+        .fact1 h2 {
+            font-weight: normal;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            margin-right: 10%;
+            text-align: justify;
+
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin-top: 50px;
+            margin-left: 8%;
+         
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: left;
+
+            
+        }
+
+        th {
+            background-color: white;
+            font-size: x-large;
+
+
+        }
+
+        .tab {
+            background-color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+
+        }
+        .totals {
+            margin-top: 20px;
+            margin-left: 50%;
+        }
+        .titre {
+
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <img class="cover-image" src="https://images.pexels.com/photos/1243046/pexels-photo-1243046.jpeg?cs=srgb&dl=pexels-mixu-1243046.jpg&fm=jpg" alt="Cover Image">
+    </div>
+
+    <div class="fact">
+        <h1>Facture</h1>
+    </div>
+
+    <div class="fact1">
+        <h1>Facture N° 1009-01 <br> Date : 01/01/20</h1>
+        <h2 style="margin-top: 5px;">M.DREDERIC SAMSON <br> 24,RUE DESAIX, <br>03200 VICHY</h2>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+                <th>Montant</th>
+            </tr>
+        </thead>
+        <tbody class="tab">
+          
+            <tr>
+                <td>SEANCE PHOTO <br> FAMILIALE</td>
+                <td>30 €</td>
+                <td>1</td>
+                <td>30 €</td>
+            </tr>
+    
+            <tr>
+                <td>SEANCE PHOTO POUR LA <br> REMISE DES DIPLOMES</td>
+                <td>32 €</td>
+                <td>1</td>
+                <td>32 €</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="totals">
+    
+        <table>
+            <tbody>
+                <tr>
+                    <td class="titre">Sous Total</td>
+                    <td>62 €</td>
+                </tr>
+                <tr>
+                    <td class="titre">TVA </td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td class="titre">Total</td>
+                    <td class="titre">74.40 €</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<div style="margin-left: 10%;" >
+    <h1>L'OBJECTIF</h1>
+</div>
+
+<div class="fact1">
+    <h1>0123456789 <br> 14,AVENUE ZOLA, 75010 <br> PARIS</h1>
+    <h2 >TITULAIRE DU COMTE : LAUREN SY <BR></BR> N° DE COMPTE :  544007776997</h2>
+</div>
+</body>
+</html>
